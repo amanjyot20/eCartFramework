@@ -14,9 +14,26 @@ import pageObjects.AccountRegistrationPage;
 import pageObjects.HomePage;
 import testBase.BaseClass;
 
-public class RegisterAccountWithBaseClass extends BaseClass
+public class RegisterAccountWithBaseClass 
 {
-	//public WebDriver driver;
+	public WebDriver driver;
+
+	@BeforeClass
+	public void setup()
+	{
+		driver= new ChromeDriver();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
+		
+		driver.get("http://localhost/opencart/upload/");
+		driver.manage().window().maximize();
+		
+	}
+	@AfterClass
+	public void tearDown()
+	{
+		driver.quit();
+	}
 	@Test
 	public void verify_Account_registration() throws InterruptedException
 	{
@@ -44,5 +61,20 @@ public class RegisterAccountWithBaseClass extends BaseClass
 		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
 		Thread.sleep(10);
 	}
-
+	public String randomStringGenerater()
+	{
+		String generatedString = RandomStringUtils.randomAlphabetic(6);
+		return generatedString;
+	}
+	public String randomNumberGenerater()
+	{
+		String generatedNumber = RandomStringUtils.randomNumeric(10);
+		return generatedNumber;
+	}
+	public String randomAlphaNumerisGenerater()
+	{
+		String chars = RandomStringUtils.randomAlphabetic(5);
+		String number=RandomStringUtils.randomNumeric(3);
+		return chars+"@"+number;
+	}
 }
