@@ -1,0 +1,18 @@
+13:59:04.934 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - ***** Starting TC_002AccountResister_RandomDataTest  *****
+13:59:05.364 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Click on MyAccount Link
+13:59:05.833 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Click on Register Link
+13:59:05.838 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Providing customer Details...
+13:59:09.879 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Validating expected message
+13:59:09.940 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - ***** Finished TC_002AccountResister_RandomDataTest  *****
+14:05:52.747 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - ***** Starting TC_002AccountResister_RandomDataTest  *****
+14:05:52.906 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Click on MyAccount Link
+14:05:53.401 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Click on Register Link
+14:05:53.429 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Providing customer Details...
+14:05:57.692 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Validating expected message
+14:05:57.778 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - ***** Finished TC_002AccountResister_RandomDataTest  *****
+14:09:54.906 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - ***** Starting TC_002AccountResister_RandomDataTest  *****
+14:09:55.351 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Click on MyAccount Link
+14:09:55.931 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Click on Register Link
+14:09:55.936 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Providing customer Details...
+14:10:00.026 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Validating expected message
+14:10:00.116 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - ***** Finished TC_002AccountResister_RandomDataTest  *****

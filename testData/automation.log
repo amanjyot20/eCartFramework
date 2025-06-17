@@ -1,0 +1,12 @@
+09:14:17.522 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - ***** Starting TC_002AccountResister_RandomDataTest  *****
+09:14:17.642 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Click on MyAccount Link
+09:14:18.108 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Click on Register Link
+09:14:18.110 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Providing customer Details...
+09:14:21.265 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Validating expected message
+09:14:21.332 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - ***** Finished TC_002AccountResister_RandomDataTest  *****
+09:21:42.683 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - ***** Starting TC_002AccountResister_RandomDataTest  *****
+09:21:42.951 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Click on MyAccount Link
+09:21:43.349 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Click on Register Link
+09:21:43.352 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Providing customer Details...
+09:21:46.385 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - Validating expected message
+09:21:46.429 [main] INFO  testCases.TC_002AccountResister_RandomDataTest - ***** Finished TC_002AccountResister_RandomDataTest  *****
